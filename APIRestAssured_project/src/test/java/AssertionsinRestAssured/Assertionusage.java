@@ -24,7 +24,7 @@ public class Assertionusage {
 				
 								.relaxedHTTPSValidation()
 								
-								.header("x-api-key", "PMAK-64ba1da68e4e54004ffc6124-e5efa589be6162edfbc47a0f26c5f83431")
+								.header("x-api-key", "POSTMANKEY")
 								
 								.when()
 								
