@@ -16,7 +16,7 @@ public class Bearertoken {
 								.relaxedHTTPSValidation()	
 								.header("Accept", "application/vnd.github+json")
 								
-								.header("Authorization", "Bearer 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")
+								.header("Authorization", "Bearer TOKEN")
 								
 								.header("X-GitHub-Api-Version", "2022-11-28")
 								.log().all()

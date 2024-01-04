@@ -16,13 +16,13 @@ public class creatrepo {
 								.relaxedHTTPSValidation()	
 								.header("Accept", " application/vnd.github+json")
 								
-								.header("Authorization", "Bearer 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")
+								.header("Authorization", "Bearer TOKEN")
 								
 								.header("X-GitHub-Api-Version", " 2022-11-28")
 								
 								.body("{\r\n"
-										+ "  \"name\": \"FC Devlop testing repository2\",\r\n"
-										+ "  \"description\": \"This erpo for api testing on develop api\",\r\n"
+										+ "  \"name\": \"NameOfRepo\",\r\n"
+										+ "  \"description\": \"Discription\",\r\n"
 										+ "  \"homepage\": \"https://github.com\",\r\n"
 										+ "  \"private\": false,\r\n"
 										+ "  \"is_template\": true\r\n"

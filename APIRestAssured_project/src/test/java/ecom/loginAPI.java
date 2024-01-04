@@ -26,7 +26,7 @@ public class loginAPI {
 							
 							.body("{\r\n"
 									+ "    \"userEmail\": \"aron@yopmail.com\",\r\n"
-									+ "     \"userPassword\": \"FC@2020\"\r\n"
+									+ "     \"userPassword\": \"Ab@2020\"\r\n"
 									+ "}")
 							
 							.log().all()
